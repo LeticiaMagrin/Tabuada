@@ -1,3 +1,11 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+}
 .content-tabuada {
     width: 100%;
     text-align: center;
@@ -24,4 +32,9 @@
 .content-tabuada tbody tr:hover {
     background-color: rgba(0, 0, 0, .15) ;
     cursor: pointer;
+}
+
+#valorA {
+    width: 100%;
+    padding: 10px;
 }
